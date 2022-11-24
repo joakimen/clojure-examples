@@ -4,7 +4,7 @@ Samples of useful things to do in Clojure that are supported by the [babashka](h
 
 ## Ideas
 
-- [ ] Implementing protocols (interfaces) with `clojure.core.protocols`
+- [x] Implementing protocols (interfaces) with `clojure.core.protocols`
 - [ ] CLI argument parsing with `clojure.tools.cli`
 - [ ] Logging with `timbre`
 - [ ] Pattern matching with `clojure.core.match`
