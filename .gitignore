@@ -2,3 +2,5 @@
 .clj-kondo
 .lsp
 icon.png
+
+.nrepl-port
