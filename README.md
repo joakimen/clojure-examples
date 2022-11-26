@@ -5,7 +5,7 @@ Samples of useful things to do in Clojure that are supported by the [babashka](h
 ## Ideas
 
 - [x] Implementing protocols (interfaces) with `clojure.core.protocols`
-- [ ] CLI argument parsing with `clojure.tools.cli`
+- [x] CLI argument parsing with `babashka.cli`
 - [ ] Logging with `timbre`
 - [ ] Pattern matching with `clojure.core.match`
 - [ ] Using the babashka CLI as a [Task Runner](https://book.babashka.org/#tasks) to replace Makefiles
