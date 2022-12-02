@@ -7,7 +7,7 @@ Samples of useful things to do in Clojure that are supported by the [babashka](h
 - [x] Implementing protocols (interfaces) with `clojure.core.protocols`
 - [x] CLI argument parsing with `babashka.cli`
 - [x] Logging with `timbre`
-- [ ] Pattern matching with `clojure.core.match`
+- [x] Pattern matching with `clojure.core.match`
 - [ ] Using the babashka CLI as a [Task Runner](https://book.babashka.org/#tasks) to replace Makefiles
 - [x] HTTP client using `slurp`, `org.httpkit.client`, `babashka.curl` etc
 - [x] Property testing with `clojure.test.check`
