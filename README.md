@@ -10,7 +10,7 @@ Samples of useful things to do in Clojure that are supported by the [babashka](h
 - [ ] Pattern matching with `clojure.core.match`
 - [ ] Using the babashka CLI as a [Task Runner](https://book.babashka.org/#tasks) to replace Makefiles
 - [x] HTTP client using `slurp`, `org.httpkit.client`, `babashka.curl` etc
-- [ ] Property testing with `clojure.test.check`
+- [x] Property testing with `clojure.test.check`
 - [ ] Glueing together CLI-utilities with `process`
 - [ ] Wait for ports/files with `babashka.wait`
 - [ ] Parse data
