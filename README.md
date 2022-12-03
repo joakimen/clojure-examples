@@ -17,7 +17,7 @@ Samples of useful things to do in Clojure that are supported by the [babashka](h
   - [ ] JSON with `cheshire.core`
   - [ ] YAML with `clj-yaml.core`
 - [ ] File system operations using `babashka.fs`
-- [ ] Multi-method polymorphism
+- [x] Multi-method polymorphism
 
 ## See also
 
