@@ -1,4 +1,7 @@
 #!/usr/bin/env bb
+(require '[cheshire.core :as json]
+         '[babashka.curl :as curl]
+         '[clojure.java.io :as io])
 
 (comment
 ;; no need for headers? slurp works
