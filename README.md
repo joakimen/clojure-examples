@@ -12,7 +12,7 @@ Samples of useful things to do in Clojure that are supported either by the [baba
 - [x] HTTP client using `slurp`, `org.httpkit.client`, `babashka.curl` etc
 - [x] Property testing with `clojure.test.check`
 - [ ] Glueing together CLI-utilities with `process`
-- [ ] Wait for ports/files with `babashka.wait`
+- [x] Wait for ports/files with `babashka.wait`
 - [ ] Parse data
   - [ ] JSON with `cheshire.core`
   - [ ] YAML with `clj-yaml.core`
