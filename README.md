@@ -13,9 +13,9 @@ Samples of useful things to do in Clojure that are supported either by the [baba
 - [x] Property testing with `clojure.test.check`
 - [x] Glueing together CLI-utilities with `process`
 - [x] Wait for ports/files with `babashka.wait`
-- [ ] Parse data
-  - [ ] JSON with `cheshire.core`
-  - [ ] YAML with `clj-yaml.core`
+- [x] Parse data
+  - [x] JSON with `cheshire.core`
+  - [x] YAML with `clj-yaml.core`
 - [ ] File system operations using `babashka.fs`
 - [x] Data structure enforcement with `clojure.spec`
 - [ ] Generative testing with `clojure.spec.test`
