@@ -1,6 +1,6 @@
 # babashka-examples
 
-Samples of useful things to do in Clojure that are supported by the [babashka](https://github.com/babashka/babashka)-interpreter.
+Samples of useful things to do in Clojure that are supported either by the [babashka](https://github.com/babashka/babashka)-interpreter or by standard Clojure.
 
 ## Ideas
 
@@ -17,6 +17,8 @@ Samples of useful things to do in Clojure that are supported by the [babashka](h
   - [ ] JSON with `cheshire.core`
   - [ ] YAML with `clj-yaml.core`
 - [ ] File system operations using `babashka.fs`
+- [x] Data structure enforcement with `clojure.spec`
+- [ ] Generative testing with `clojure.spec.test`
 - [x] Multi-method polymorphism
 
 ## See also
