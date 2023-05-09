@@ -1,4 +1,4 @@
-(ns dispatch.main
+(ns dispatch
   "example of using babashka.cli/dispatch"
   (:require [babashka.cli :as cli]
             [clojure.string :as str]))
