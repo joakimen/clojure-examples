@@ -1,0 +1,2 @@
+{:deps {io.github.joakimen/feature {:local/root "."}
+        medley/medley {:mvn/version "1.3.0"}}}
