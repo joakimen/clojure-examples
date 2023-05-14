@@ -6,7 +6,7 @@
 (defn greet [{:keys [opts]}]
   (println "Greetings," (:name opts)))
 
-(defn reverse [{:keys [opts]}]
+(defn rev [{:keys [opts]}]
   (println (str/reverse (:name opts))))
 
 (defn help [_]
@@ -14,7 +14,7 @@
 
 (def subcommands
   [{:cmds ["greet"] :fn greet :args->opts [:name]}
-   {:cmds ["reverse"] :fn reverse}
+   {:cmds ["reverse"] :fn rev}
    {:cmds [] :fn help}])
 
 (defn -main [& args]
