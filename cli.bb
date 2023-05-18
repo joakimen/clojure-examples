@@ -31,8 +31,9 @@
 ;;   :restrict [:port :verbose :hostname] ;; throw error if user supplies opts not in this list
    })
 
-(defn parse-opts [opts rules]
+(defn parse-opts
   "wrapper-func so we can supply test-args in (comment) -block"
+  [opts rules]
   (cli/parse-opts opts rules))
 
 ;; supplied from cli
