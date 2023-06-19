@@ -9,4 +9,5 @@
       {:title "home alone"
        :characters [{:name "kevin" :age 8}
                     {:name "marv" :age 42}]}]
+  #_{:clj-kondo/ignore [:unresolved-var]}
   (yaml/generate-string movie))
